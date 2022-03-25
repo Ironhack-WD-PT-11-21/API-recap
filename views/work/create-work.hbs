@@ -1,0 +1,30 @@
+<form action="/work/create" method="post">
+    <label for="title" name="title">
+        Project title
+        <input type="text" name="title">
+    </label>
+    <label for="description" name="description">
+        Project description
+        <textarea name="description"></textarea>
+    </label>
+    <div>
+        <label for="html" name="html">
+            html
+            <input type="checkbox" name="html">
+        </label>
+        <label for="css" name="css">
+            css
+            <input type="checkbox" name="css" checked="false">
+        </label>
+        <label for="javascript" name="javascript">
+            javascript
+            <input type="checkbox" name="javascript">
+        </label>
+        <label for="nodeJS" name="nodeJS">
+            nodeJS
+            <input type="checkbox" name="nodeJS">
+        </label>
+    </div>
+
+    <button type="submit">Create</button>
+</form>

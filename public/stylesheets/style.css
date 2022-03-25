@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  color: 15px;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  overflow-y: scroll;
+  gap:10px
+}
+header{
+  display: flex;
+  height: 50px
+}
+
+.work-item-container {
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.work-item-container > a {
+  text-decoration: none;
+}
+.work-item-container a > h3 {
+  color: rgb(34, 34, 34);
+}
+
+.work-item-container span {
+  padding: 5px;
+  background-color: lightgreen;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.work-item-container > div {
+  margin-bottom: 15px;
+}

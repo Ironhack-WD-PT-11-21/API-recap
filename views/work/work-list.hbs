@@ -1,0 +1,13 @@
+{{#each works}}
+<div class="work-item-container">
+    <a href="/work/{{work.id}}">
+        <h3>{{this.title}}</h3>
+    </a>
+    <div>
+        {{#each this.techUsed}}
+        <span>{{this}}</span>
+        {{/each}}
+    </div>
+    <a class="work-item-git-link" href="{{this.repo}}">Github</a>
+</div>
+{{/each}}
